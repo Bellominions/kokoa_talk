@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wellcome to kokoa clone!</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/6619663bc5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <!--status-bar-->
+    <header class="screen-header">
+      <h1 class="screen-header__title">Chats</h1>
+      <div class="screen-header__icon">
+        <span><i class="fas fa-search"></i></span>
+        <span><i class="far fa-comment-dots"></i></span>
+        <span><i class="fas fa-music"></i></span>
+        <span><i class="fas fa-cog"></i></span>
+      </div>
+    </header>
+    <main class="friends-screen">
+      <a href="chats.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://www.infamousinspiration.com/wp-content/uploads/2017/06/King-Bob-Minions-Poster-2.jpg"
+              class="user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">King BOB</h4>
+              <h6 class="user-component__subtitle">
+                Please check My Kakao Account Info
+              </h6>
+            </div>
+          </div>
+          <div class="user-component__column-chat">
+            <span>21:22</span>
+            <span class="badge">1</span>
+          </div>
+        </div>
+      </a>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chat.html">
+            <span class="nav__chat-alam badge">1</span>
+            <i class="fas fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__dot">.</span>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div id="no-mobile">
+      <span>your screen is too big ㅠㅠ</span>
+    </div>
+  </body>
+</html>
